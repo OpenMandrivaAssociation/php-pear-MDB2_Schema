@@ -7,7 +7,7 @@
 
 Summary:	%{_pearname} - XML based database schema manager
 Name:		php-pear-%{_pearname}
-Version:	0.5.0
+Version:	0.7.2
 Release:	%mkrel 1
 License:	PHP License
 Group:		Development/PHP
