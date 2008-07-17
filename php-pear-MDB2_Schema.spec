@@ -8,7 +8,7 @@
 Summary:	%{_pearname} - XML based database schema manager
 Name:		php-pear-%{_pearname}
 Version:	0.7.2
-Release:	%mkrel 1
+Release:	%mkrel 2
 License:	PHP License
 Group:		Development/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tar.bz2
@@ -18,7 +18,7 @@ Requires(preun): php-pear
 Requires:	php-pear
 BuildArch:	noarch
 BuildRequires:	dos2unix
-BuildRoot:	%{_tmppath}/%{name}-%{version}-buildroot
+BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
 %description
 PEAR::MDB2_Schema enables users to maintain RDBMS independant schema
