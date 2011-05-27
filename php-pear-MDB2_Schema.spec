@@ -6,7 +6,7 @@
 
 Name:		php-pear-%{upstream_name}
 Version:	0.7.2
-Release:	%mkrel 6
+Release:	%mkrel 7
 Summary:	XML based database schema manager
 License:	PHP License
 Group:		Development/PHP
